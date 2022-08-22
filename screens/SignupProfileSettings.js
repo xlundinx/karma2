@@ -133,7 +133,7 @@ const SignupProfileSettings = ({navigation}) => {
         }
         </Formik>
         <StyledFormArea welcome={true}>
-            <StyledButton onPress={() => {navigation.navigate("Profile")}}>
+            <StyledButton onPress={() => {navigation.navigate("Welcome")}}>
                 <ButtonText>Save settings</ButtonText>
             </StyledButton>
         </StyledFormArea>

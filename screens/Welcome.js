@@ -54,13 +54,13 @@ const Welcome = ({navigation}) => {
                 </StyledFormArea>
             </InnerContainer>
             <StyledBottomMenuContainer>
-                <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("Login")}>
+                <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("")}>
                     <BottomMenuIcon resizeMode="contain" source={require('./../assets/KARMAicons/Heart.png')}/>
                 </StyledBottomMenuInnerContainer>
-                <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("Login")}>
+                <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("")}>
                     <BottomMenuIcon resizeMode="contain" source={require('./../assets/KARMAicons/Group.png')}/>
                 </StyledBottomMenuInnerContainer>
-                <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("Login")}>
+                <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("")}>
                     <BottomMenuIcon resizeMode="contain" source={require('./../assets/KARMAicons/KarmaRun.png')}/>
                 </StyledBottomMenuInnerContainer>
                 <StyledBottomMenuInnerContainer onPress={() => navigation.navigate("Profile")}>
